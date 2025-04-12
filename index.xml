@@ -14,37 +14,23 @@
         
         <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</guid>
         <description>&lt;h5 id=&#34;1设置git全局用户信息&#34;&gt;1.设置Git全局用户信息
-&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;git config user.email &amp;ldquo;你的邮箱&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;git config user.name &amp;ldquo;你的用户名&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;git config user.email &amp;quot;你的邮箱&amp;quot;
+git config user.name &amp;quot;你的用户名&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h5 id=&#34;2配置git使用代理如果有代理&#34;&gt;2.配置Git使用代理（如果有代理）
-&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;git config &amp;ndash;global http.proxy http://127.0.0.1:代理端口号&lt;/li&gt;
-&lt;li&gt;git config &amp;ndash;global https.proxy http://127.0.0.1:代理端口号&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;3进入项目目录&#34;&gt;3.进入项目目录
-&lt;/h5&gt;&lt;h6 id=&#34;启动hugo更新文件&#34;&gt;启动hugo更新文件
-&lt;/h6&gt;&lt;ul&gt;
-&lt;li&gt;cd D:\hugo\dev&lt;/li&gt;
-&lt;li&gt;hugo serve -D&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h6 id=&#34;进入项目目录&#34;&gt;进入项目目录
-&lt;/h6&gt;&lt;ul&gt;
-&lt;li&gt;cd D:\hugo\dev\content&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;4添加文件到暂存区&#34;&gt;4.添加文件到暂存区
-&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;git add .&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;5提交&#34;&gt;5.提交
-&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;git commit -m &amp;ldquo;更新&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h5 id=&#34;6推送到远程仓库&#34;&gt;6.推送到远程仓库
-&lt;/h5&gt;&lt;ul&gt;
-&lt;li&gt;git push -u origin main&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;git config --global http.proxy http://127.0.0.1:代理端口号
+git config --global https.proxy http://127.0.0.1:代理端口号
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;3确保在项目根目录非public&#34;&gt;3.确保在项目根目录（非public）
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;cd D:\hugo\dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;4生成静态文件并推送到远程仓库&#34;&gt;4.生成静态文件并推送到远程仓库
+&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;hugo -D
+cd public
+git add .
+git commit -m &amp;quot;更新内容&amp;quot;
+git push -u origin main
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
         <item>

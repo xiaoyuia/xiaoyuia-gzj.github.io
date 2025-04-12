@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.设置Git全局用户信息 git config user.email &ldquo;你的邮箱&rdquo; git config user.name &ldquo;你的用户名&rdquo; 2.配置Git使用代理（如果有代理） git config &ndash;global http.proxy http://127.0.0.1:代理端口号 git config &ndash;global https.proxy http://127.0.0.1:代理端口号 3.进入项目目录 启动hugo更新文件 cd D:\\hugo\\dev hugo serve -D 进入项目目录 cd D:\\hugo\\dev\\content 4.添加文件到暂存区 git add . 5.提交 git commit -m &ldquo;更新&rdquo; 6.推送到远程仓库 git push -u origin main ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="1.设置Git全局用户信息 git config user.email &quot;你的邮箱&quot; git config user.name &quot;你的用户名&quot; 2.配置Git使用代理（如果有代理） git config --global http.proxy http://127.0.0.1:代理端口号 git config --global https.proxy http://127.0.0.1:代理端口号 3.确保在项目根目录（非public） cd D:\\hugo\\dev 4.生成静态文件并推送到远程仓库 hugo -D cd public git add . git commit -m &quot;更新内容&quot; git push -u origin main ">
 <title>obsidian同步github</title>
 
 <link rel='canonical' href='https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/'>
 
 <link rel="stylesheet" href="/xiaoyuia-gzj.github.io/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="obsidian同步github">
-<meta property='og:description' content="1.设置Git全局用户信息 git config user.email &ldquo;你的邮箱&rdquo; git config user.name &ldquo;你的用户名&rdquo; 2.配置Git使用代理（如果有代理） git config &ndash;global http.proxy http://127.0.0.1:代理端口号 git config &ndash;global https.proxy http://127.0.0.1:代理端口号 3.进入项目目录 启动hugo更新文件 cd D:\\hugo\\dev hugo serve -D 进入项目目录 cd D:\\hugo\\dev\\content 4.添加文件到暂存区 git add . 5.提交 git commit -m &ldquo;更新&rdquo; 6.推送到远程仓库 git push -u origin main ">
+<meta property='og:description' content="1.设置Git全局用户信息 git config user.email &quot;你的邮箱&quot; git config user.name &quot;你的用户名&quot; 2.配置Git使用代理（如果有代理） git config --global http.proxy http://127.0.0.1:代理端口号 git config --global https.proxy http://127.0.0.1:代理端口号 3.确保在项目根目录（非public） cd D:\\hugo\\dev 4.生成静态文件并推送到远程仓库 hugo -D cd public git add . git commit -m &quot;更新内容&quot; git push -u origin main ">
 <meta property='og:url' content='https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/'>
 <meta property='og:site_name' content='张宇'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-04-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-12T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="obsidian同步github">
-<meta name="twitter:description" content="1.设置Git全局用户信息 git config user.email &ldquo;你的邮箱&rdquo; git config user.name &ldquo;你的用户名&rdquo; 2.配置Git使用代理（如果有代理） git config &ndash;global http.proxy http://127.0.0.1:代理端口号 git config &ndash;global https.proxy http://127.0.0.1:代理端口号 3.进入项目目录 启动hugo更新文件 cd D:\\hugo\\dev hugo serve -D 进入项目目录 cd D:\\hugo\\dev\\content 4.添加文件到暂存区 git add . 5.提交 git commit -m &ldquo;更新&rdquo; 6.推送到远程仓库 git push -u origin main ">
+<meta name="twitter:description" content="1.设置Git全局用户信息 git config user.email &quot;你的邮箱&quot; git config user.name &quot;你的用户名&quot; 2.配置Git使用代理（如果有代理） git config --global http.proxy http://127.0.0.1:代理端口号 git config --global https.proxy http://127.0.0.1:代理端口号 3.确保在项目根目录（非public） cd D:\\hugo\\dev 4.生成静态文件并推送到远程仓库 hugo -D cd public git add . git commit -m &quot;更新内容&quot; git push -u origin main ">
     </head>
     <body class="
     article-page
@@ -270,6 +270,8 @@
         <li>
           <ol>
             <li></li>
+            <li><a href="#3确保在项目根目录非public">3.确保在项目根目录（非public）</a></li>
+            <li><a href="#4生成静态文件并推送到远程仓库">4.生成静态文件并推送到远程仓库</a></li>
           </ol>
         </li>
       </ol>
@@ -346,37 +348,23 @@
     
     
     <h5 id="1设置git全局用户信息">1.设置Git全局用户信息
-</h5><ul>
-<li>git config user.email &ldquo;你的邮箱&rdquo;</li>
-<li>git config user.name &ldquo;你的用户名&rdquo;</li>
-</ul>
+</h5><pre><code>git config user.email &quot;你的邮箱&quot;
+git config user.name &quot;你的用户名&quot;
+</code></pre>
 <h5 id="2配置git使用代理如果有代理">2.配置Git使用代理（如果有代理）
-</h5><ul>
-<li>git config &ndash;global http.proxy http://127.0.0.1:代理端口号</li>
-<li>git config &ndash;global https.proxy http://127.0.0.1:代理端口号</li>
-</ul>
-<h5 id="3进入项目目录">3.进入项目目录
-</h5><h6 id="启动hugo更新文件">启动hugo更新文件
-</h6><ul>
-<li>cd D:\hugo\dev</li>
-<li>hugo serve -D</li>
-</ul>
-<h6 id="进入项目目录">进入项目目录
-</h6><ul>
-<li>cd D:\hugo\dev\content</li>
-</ul>
-<h5 id="4添加文件到暂存区">4.添加文件到暂存区
-</h5><ul>
-<li>git add .</li>
-</ul>
-<h5 id="5提交">5.提交
-</h5><ul>
-<li>git commit -m &ldquo;更新&rdquo;</li>
-</ul>
-<h5 id="6推送到远程仓库">6.推送到远程仓库
-</h5><ul>
-<li>git push -u origin main</li>
-</ul>
+</h5><pre><code>git config --global http.proxy http://127.0.0.1:代理端口号
+git config --global https.proxy http://127.0.0.1:代理端口号
+</code></pre>
+<h4 id="3确保在项目根目录非public">3.确保在项目根目录（非public）
+</h4><pre><code>cd D:\hugo\dev
+</code></pre>
+<h4 id="4生成静态文件并推送到远程仓库">4.生成静态文件并推送到远程仓库
+</h4><pre><code>hugo -D
+cd public
+git add .
+git commit -m &quot;更新内容&quot;
+git push -u origin main
+</code></pre>
 
 </section>
 
