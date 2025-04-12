@@ -6,25 +6,45 @@
         <description>Recent content in Posts on 张宇</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>张宇</copyright><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title></title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <copyright>张宇</copyright>
+        <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>obsidian同步github</title>
+        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</link>
+        <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/</guid>
-        <description>&lt;h1 id=&#34;this-is-test&#34;&gt;this is test
-&lt;/h1&gt;</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/</guid>
-        <description>&lt;p&gt;这是你的新&lt;em&gt;仓库&lt;/em&gt;。&lt;/p&gt;
-&lt;p&gt;写点笔记，[[创建链接]]，或者试一试&lt;a class=&#34;link&#34; href=&#34;https://help.obsidian.md/Plugins/Importer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;导入器&lt;/a&gt;插件!&lt;/p&gt;
-&lt;p&gt;当你准备好了，就将该笔记文件删除，使这个仓库为你所用。&lt;/p&gt;
+        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</guid>
+        <description>&lt;h5 id=&#34;1设置git全局用户信息&#34;&gt;1.设置Git全局用户信息
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;git config user.email &amp;ldquo;你的邮箱&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;git config user.name &amp;ldquo;你的用户名&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;2配置git使用代理如果有代理&#34;&gt;2.配置Git使用代理（如果有代理）
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;git config &amp;ndash;global http.proxy http://127.0.0.1:代理端口号&lt;/li&gt;
+&lt;li&gt;git config &amp;ndash;global https.proxy http://127.0.0.1:代理端口号&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;3进入项目目录&#34;&gt;3.进入项目目录
+&lt;/h5&gt;&lt;h6 id=&#34;启动hugo更新文件&#34;&gt;启动hugo更新文件
+&lt;/h6&gt;&lt;ul&gt;
+&lt;li&gt;cd D:\hugo\dev&lt;/li&gt;
+&lt;li&gt;hugo serve -D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;进入项目目录&#34;&gt;进入项目目录
+&lt;/h6&gt;&lt;ul&gt;
+&lt;li&gt;cd D:\hugo\dev\content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;4添加文件到暂存区&#34;&gt;4.添加文件到暂存区
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;git add .&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;5提交&#34;&gt;5.提交
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;git commit -m &amp;ldquo;更新&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;6推送到远程仓库&#34;&gt;6.推送到远程仓库
+&lt;/h5&gt;&lt;ul&gt;
+&lt;li&gt;git push -u origin main&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         
