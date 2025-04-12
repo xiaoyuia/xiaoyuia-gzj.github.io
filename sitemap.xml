@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/post/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/post/</loc>
     <lastmod>2025-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/archives/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/page/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/page/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/categories/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/categories/</loc>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/links/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/links/</loc>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/search/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/search/</loc>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/tags/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/tags/</loc>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/categories/test/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/categories/test/</loc>
   </url><url>
-    <loc>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://localhost:1313/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</loc>
   </url>
 </urlset>

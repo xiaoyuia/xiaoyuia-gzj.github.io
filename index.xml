@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>张宇</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/</link>
         <description>Recent content on 张宇</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>张宇</copyright>
-        <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/xiaoyuia-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>obsidian同步github</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</link>
         <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</guid>
+        <guid>http://localhost:1313/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5github/</guid>
         <description>&lt;h5 id=&#34;1设置git全局用户信息&#34;&gt;1.设置Git全局用户信息
 &lt;/h5&gt;&lt;pre&gt;&lt;code&gt;git config user.email &amp;quot;你的邮箱&amp;quot;
 git config user.name &amp;quot;你的用户名&amp;quot;
@@ -35,18 +35,18 @@ git push -u origin main
         </item>
         <item>
         <title>Archives</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/archives/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/archives/</guid>
+        <guid>http://localhost:1313/xiaoyuia-gzj.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>Links</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/links/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/links/</guid>
+        <guid>http://localhost:1313/xiaoyuia-gzj.github.io/links/</guid>
         <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -78,18 +78,18 @@ git push -u origin main
         </item>
         <item>
         <title>Search</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/search/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/search/</guid>
+        <guid>http://localhost:1313/xiaoyuia-gzj.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/xiaoyuia-gzj.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
