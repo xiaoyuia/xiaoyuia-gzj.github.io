@@ -7,7 +7,54 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>张宇</copyright>
-        <lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>103_Python学习中的两大法宝函数</title>
+        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/103_python%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E4%B8%A4%E5%A4%A7%E6%B3%95%E5%AE%9D%E5%87%BD%E6%95%B0/</link>
+        <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/103_python%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E4%B8%A4%E5%A4%A7%E6%B3%95%E5%AE%9D%E5%87%BD%E6%95%B0/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>101_Python编辑器的选择、安装及配置（Pycharm、Jupyter）</title>
+        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/101_python%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E9%80%89%E6%8B%A9%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AEpycharmjupyter/</link>
+        <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/101_python%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E9%80%89%E6%8B%A9%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AEpycharmjupyter/</guid>
+        <description>&lt;h3 id=&#34;pycharm&#34;&gt;PyCharm
+&lt;/h3&gt;&lt;p&gt;进入官网https://www.jetbrains.com/pycharm/download/other.html
+选择community 2024.1.4版本下载安装&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;新建项目&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250413194842.png]]&lt;/p&gt;
+&lt;p&gt;新建一个test文件，打开Settings对话框，选择当前项目中的Python Interpreter  ——&amp;gt; Add Interpreter，选择anaconda/Scripts/conda.exe，选择完成之后加载环境，新建项目&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250413195310.png]]&lt;/p&gt;
+&lt;p&gt;新建项目后打开PyCharm的Python Console输入&lt;code&gt;import torch&lt;/code&gt; （若报错，尝试重启电脑） ——&amp;gt; 输入&lt;code&gt;torch.cuda.is_available()&lt;/code&gt;，返回True则说明成功创建项目&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;jupyter在环境中安装jupyter&#34;&gt;Jupyter（在环境中安装Jupyter）
+&lt;/h3&gt;&lt;p&gt;打开anaconda Prompt，输入&lt;code&gt;pip install notebook&lt;/code&gt;指令，安装完成后输入&lt;code&gt;jupyter notebook&lt;/code&gt;即可正常启动jupyter Notebook&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>102_PyTorch环境的配置及安装</title>
+        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/102_pytorch%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AE%89%E8%A3%85/</link>
+        <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/102_pytorch%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E5%8F%8A%E5%AE%89%E8%A3%85/</guid>
+        <description>&lt;h3 id=&#34;安装python版本&#34;&gt;安装Python版本
+&lt;/h3&gt;&lt;p&gt;打开Anaconda的Prompt终端，输入&lt;code&gt;jupyter kernelspec list&lt;/code&gt;，查看已经安装的Python版本。如下图所示，只有Anaconda自带的Python3&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250413160000.png]]&lt;/p&gt;
+&lt;p&gt;输入&lt;code&gt;conda create -n pytorch python=3.10&lt;/code&gt; ，输入[y]/n 时输入 y ，创建 pytorch 虚拟环境，它会安装 python3.10 到 anaconda3 的 env 目录下。&lt;/p&gt;
+&lt;p&gt;输入&lt;code&gt;conda activate pytorch&lt;/code&gt; 激活pytorch环境后，在pytorch.org官网，找到下图安装指令，复制输入命令即可安装。
+使用&lt;code&gt;pip list&lt;/code&gt;可以查看版本&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250413162503.png]]&lt;/p&gt;
+&lt;p&gt;输入&lt;code&gt;python&lt;/code&gt;，进入python环境
+输入&lt;code&gt;import torch&lt;/code&gt;，如果没有报错就说明pytorch安装成功
+输入&lt;code&gt;torch.cuda.is_available()&lt;/code&gt;  ，如果显示TRUE，说明pytorch可以使用gpu&lt;/p&gt;
+&lt;p&gt;![[Pasted image 20250413163314.png]]&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>obsidian同步到github</title>
         <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5%E5%88%B0github/</link>
         <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
@@ -23,6 +70,7 @@ git config --global https.proxy http://127.0.0.1:代理端口号
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;3确保在项目根目录非public&#34;&gt;3.确保在项目根目录（非public）
 &lt;/h4&gt;&lt;pre&gt;&lt;code&gt;cd D:\hugo\dev
+hugo serve -D    //启动hugo
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h4 id=&#34;4生成静态文件并推送到远程仓库&#34;&gt;4.生成静态文件并推送到远程仓库
 &lt;/h4&gt;&lt;pre&gt;&lt;code&gt;hugo -D

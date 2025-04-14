@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on 张宇</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/post/</link>
-        <description>Recent content in Posts on 张宇</description>
+        <title>PyTorch深度学习快速入门教程（小土堆） on 张宇</title>
+        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/tags/pytorch%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E5%B0%8F%E5%9C%9F%E5%A0%86/</link>
+        <description>Recent content in PyTorch深度学习快速入门教程（小土堆） on 张宇</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>张宇</copyright>
-        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/tags/pytorch%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%E5%B0%8F%E5%9C%9F%E5%A0%86/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>103_Python学习中的两大法宝函数</title>
         <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/103_python%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E4%B8%A4%E5%A4%A7%E6%B3%95%E5%AE%9D%E5%87%BD%E6%95%B0/</link>
         <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
@@ -52,33 +52,6 @@
 输入&lt;code&gt;import torch&lt;/code&gt;，如果没有报错就说明pytorch安装成功
 输入&lt;code&gt;torch.cuda.is_available()&lt;/code&gt;  ，如果显示TRUE，说明pytorch可以使用gpu&lt;/p&gt;
 &lt;p&gt;![[Pasted image 20250413163314.png]]&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>obsidian同步到github</title>
-        <link>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5%E5%88%B0github/</link>
-        <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://xiaoyuia.github.io/xiaoyuia-gzj.github.io/p/obsidian%E5%90%8C%E6%AD%A5%E5%88%B0github/</guid>
-        <description>&lt;h5 id=&#34;1设置git全局用户信息&#34;&gt;1.设置Git全局用户信息
-&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;git config user.email &amp;quot;你的邮箱&amp;quot;
-git config user.name &amp;quot;你的用户名&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h5 id=&#34;2配置git使用代理如果有代理&#34;&gt;2.配置Git使用代理（如果有代理）
-&lt;/h5&gt;&lt;pre&gt;&lt;code&gt;git config --global http.proxy http://127.0.0.1:代理端口号
-git config --global https.proxy http://127.0.0.1:代理端口号
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;3确保在项目根目录非public&#34;&gt;3.确保在项目根目录（非public）
-&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;cd D:\hugo\dev
-hugo serve -D    //启动hugo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h4 id=&#34;4生成静态文件并推送到远程仓库&#34;&gt;4.生成静态文件并推送到远程仓库
-&lt;/h4&gt;&lt;pre&gt;&lt;code&gt;hugo -D
-cd public
-git add .
-git commit -m &amp;quot;更新内容&amp;quot;
-git push -u origin main
-&lt;/code&gt;&lt;/pre&gt;
 </description>
         </item>
         
